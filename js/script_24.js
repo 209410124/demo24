@@ -1,11 +1,11 @@
 
+
  const menu = document.querySelector(".menu");
  const menuMain = menu.querySelector(".menu-main");
  const goBack = menu.querySelector(".go-back");
  const menuTrigger = document.querySelector(".mobile-menu-trigger");
  const closeMenu = menu.querySelector(".mobile-menu-close");
  let subMenu;
- 
  menuMain.addEventListener("click", (e) =>{
  	if(!menu.classList.contains("active")){
  		return;
@@ -56,5 +56,5 @@
  		}
 
  	}
- };
+ }
 
