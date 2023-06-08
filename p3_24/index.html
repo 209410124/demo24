@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles_24.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>P3_24 - Show menu_24 data from local /api/menu.json 209410124</h1>
+        <div class="flex">
+            <form  class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for meals or keywords">
+                <button class="search-btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class=" random-btn"id="random">
+                <i class="fa fa-random"></i>
+            </button>
+        </div>
+        <div id="result-heading"></div>
+        <div class="meals" id="meals"></div>
+        <div id="single-meal"></div>
+    </div>
+
+    <script src="./app_24.js"></script>
+</body>
+</html>
